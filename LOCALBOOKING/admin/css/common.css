@@ -1,0 +1,29 @@
+:root{
+   --teal: #22eea0;
+   --teal_hover: #22eea0;
+}
+
+.h-font{
+    font-family: "Pacifico", cursive;
+   }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type=number]{
+   -moz-appearance: textfield;
+}
+.custom-bg{
+   background-color: var(--teal);
+   border: 1px solid var(--teal);
+}
+.custom-bg:hover{
+   background-color: var(--teal_hover);
+   border-color: var(--teal_hover);
+}
+.h-line{
+   width: 150px;
+   margin: 0 auto;
+   height: 1.7px;
+}
