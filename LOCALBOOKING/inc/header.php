@@ -19,7 +19,7 @@
                         <li><a class="dropdown-item" href="hotels.php">Hotels</a></li>
                     </ul>
                     </li>
-                        <a class="nav-link me-3" href="facilities.php">Facilities</a>
+                        <a class="nav-link " href="facilities"></a>
                     </li> 
                     <li class="nav-item">
                         <a class="nav-link me-3" href="contact.php">Contact us</a>

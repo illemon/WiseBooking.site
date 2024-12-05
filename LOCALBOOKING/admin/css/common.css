@@ -27,3 +27,32 @@ input[type=number]{
    margin: 0 auto;
    height: 1.7px;
 }
+.custom-alert{
+   position: fixed;
+   top: 25px;
+   right: 25px;
+}
+#dashboard-menu{
+   position: fixed;
+   height: 100vh; /* Full viewport height */
+   top: 0; /* Start at the top */
+   left: 0; /* Align to the left */
+   width: 250px; /* Set width for a consistent sidebar */
+   overflow-y: auto; /* Optional: Add scrolling for long content */
+   background-color: #343a40; /* Ensure a consistent dark background */
+}
+#main-content {
+   margin-left: 250px; /* Same as sidebar width */
+   padding: 20px; /* Optional for spacing */
+}
+@media screen and (max-width: 992px) {
+   #dashboard-menu {
+      position: static; /* Allow the sidebar to stack */
+      height: auto; /* Adjust height to content */
+      width: 100%; /* Full width for smaller screens */
+   }
+   #main-content {
+      margin-left: 0; /* Reset margin */
+      margin-top: 60px; /* Avoid overlap with sticky header */
+   }
+}
